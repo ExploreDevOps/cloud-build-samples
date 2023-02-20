@@ -22,4 +22,4 @@ steps:
   - name: gcr.io/cloud-builders/docker
     args: ["build", "-t", "asia-south1-docker.pkg.dev/green-torus-378107/dockerrepo/hellospring", "--build-arg=JAR_FILE=target/hello-spring-1.0.0.jar", "."]
 images: ["asia-south1-docker.pkg.dev/green-torus-378107/dockerrepo/hellospring"]
-# [END cloudbuild_maven]
+# [END cloudbuild_maven]0
